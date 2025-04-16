@@ -1,0 +1,98 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+    background: linear-gradient(135deg, #ff5757 50%, #ff8b8b 50%); /*peguei do cadastro, é do chat essa linha*/
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    width: 80%;
+    height: 70px;
+    background: #000;
+    display: flex;
+    position: absolute; 
+    top: 30px;        
+    left: 50%;          
+    transform: translateX(-50%); 
+}
+section {
+    margin-bottom: 50px;
+}
+.logo {
+    width: 15%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 75px;
+    height: 70px;
+}
+.search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input {
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+ul {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+}
+ul li a:hover {
+    color: rgb(80, 80, 80);
+}
+.color1 {
+    color: #000;
+}
+.bg1 {
+    background: #fff;
+}
+.bg-transparent {
+    background: transparent;
+}
+.bg-glassmorphism {
+    background: rgb(185, 184, 184, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+}
+.search1 input::-webkit-input-placeholder {
+    color: #fff;
+}
+/*código que o professor disponibilizou*/
